@@ -1,0 +1,17 @@
+h1{
+    color: aqua;
+}
+p{
+    color: rgb(224, 224, 235);
+    
+}
+.photo{
+    height: 90px;
+    width: 90px;
+}
+.bos{
+    border: 2px solid aqua;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 2%;
+}

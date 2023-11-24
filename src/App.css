@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+.topnavigation{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnavigation a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.topnavigation a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.topnavigation a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnavigation .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnavigation a:not(:first-child) {display: none;}
+  .topnavigation a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnavigation.responsive {position: absolute;}
+  .topnavigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnavigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

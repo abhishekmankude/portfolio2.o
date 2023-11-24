@@ -1,0 +1,15 @@
+.loader {
+    width: 100%;
+    height: 90px;
+    font-size: 100px;
+    
+    }
+  .loader .loading {
+    max-width: 100px;
+   height: auto;
+    
+}
+   .loading{
+    border-radius: 40%; 
+    
+}
